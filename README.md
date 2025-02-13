@@ -40,11 +40,14 @@ Ce projet permet de télécharger des images vers un bucket AWS S3 en utilisant 
      ```bash
      python app.py
      ```
-3. **Modifiez les adresses IP** :
-   - Modifiez l'adresse IP dans l'upload.js, en y mettant le DNS publique de l'instance EC2
+4. **Modifiez le CORS** :
+   - Modifiez le CORS dans le fichier app.py en fonction de votre infrastructure.
 
 
 ### Frontend
+
+1. **Modifiez les adresses IP** :
+   - Modifiez l'adresse IP dans l'upload.js, en y mettant le DNS publique de l'instance EC2
 
 - Ouvrez le fichier `index.html` dans votre navigateur pour accéder à l'interface de téléchargement.
 
